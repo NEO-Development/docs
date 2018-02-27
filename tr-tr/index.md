@@ -1,48 +1,50 @@
 # NEO White Paper
 
-A distributed network for the Smart Economy
+Akýllý Ekonomi Ýçin Bir Daðýtýk Að
 
-## NEO design goals: Smart Economy
+## NEO Tasarým Hedefleri: Akýllý Ekonomi
 
-NEO is the use of blockchain technology and digital identity to digitize assets, the use of smart contracts for digital assets to be self-managed, to achieve "smart economy" with a distributed network.
+NEO, varlýklarý dijitalize edilmesi, akýllý sözleþmelerin kullanýmý ile dijital varlýklarýn kendini yönetebilir olmasý, daðýtýk að ile "akýllý ekonomiyi" gerçekleþtirmek için blokzinciri teknolojisinin ve dijital kimliðin kullanýmýdýr.
 
-### Digital Assets
+### Dijital Varlýklar
 
-Digital assets are programmable assets that exist in the form of electronic data. With blockchain technology, the digitization of assets can be decentralized, trustful, traceable, highly transparent, and free of intermediaries. On the NEO blockchain, users are able to register, trade, and circulate multiple types of assets. Proving the connection between digital and physical assets is possible through digital identity. Assets registered through a validated digital identity are protected by law.
+Dijital varlýklar, elektronik veri þeklinde programlanabilir olan varlýklardýr. Blokzinciri teknolojisi ile, varlýklarýn dijitalleþtirilmesi merkezsiz, güvenli, takip edilebilir, oldukça saydam ve aracýsýz olabilir. NEO blokzincirinde, kullanýcýlar birden çok varlýk türünü kayýt edebilir, ticaretini yapabilir ve yayabilir. Dijital varlýklarla fiziki varlýklar arasýndaki baðlantýyý ispat etmek, dijital kimlik ile mümkündür. Doðrulanmýþ bir dijital kimlik ile kaydedilmiþ bir varlýk kanunlar ile korunmuþtur. 
 
-NEO has two forms of digital assets: global assets and contract assets. Global assets can be recorded in the system space and can be identified by all smart contracts and clients. Contract assets are recorded in the private storage area of the smart contract and require a compatible client to recognize them. Contract assets can adhere to certain standards in order to achieve compatibility with most clients.
+NEO iki dijital varlýk formuna sahiptir; küresel varlýklar ve sözleþme varlýklarý. Global varlýklar sistem alanýna kaydedilebilir ve tüm akýllý sözleþmeler ve istemciler tarafýndan tanýmlanabilir. Sözleþme varlýklarý akýllý sözleþmelerin özel saklama alanýnda kaydedilir ve bunlarý tanýmak için uyumlu bir istemci gerektirir. Sözleþme varlýklarý, çoðu istemciyle uyumluluk saðlamak için belirli standartlara uyabilir.
 
-### Digital Identity
 
-Digital identity refers to the identity information of individuals, organizations, and other entities that exist in electronic form. The more mature digital identity system is based on the PKI (Public Key Infrastructure) X.509 standard. In NEO, we will implement a set of X.509 compatible digital identity standards. This set of digital identity standards, in addition to compatible X.509 level certificate issuance model, will also support Web Of Trust point-to-point certificate issuance model. Our verification of identity when issuing or using digital identities includes the use of facial features, fingerprint, voice, SMS and other multi-factor authentication methods. At the same time, we will also use the blockchain to replace the Online Certificate Status Protocol (OCSP) to manage and record the X.509 Certificate Revocation List (CRL).
+### Dijital Kimlik
 
-### Smart Contract
+Dijital kimlik, elektronik formda bulunan kiþilerin, organizasyonlarýn ve diðer varlýklarýn kimliðini ifade eder. Daha geliþmiþ dijital kimlik sistemi PKI (Public Key Infrastructure) X.509 standardý temeline dayanmaktadýr. NEO da, bir takým X.509 uyumlu dijital kimlik standardý uygulayacaðýz. Bu dijital kimlik standartlarý, X.509 düzeyinde sertifika verme modeline uyumlu olmasýna ek olarak , Güven Aðý noktadan noktaya sertifika verme modelini de destekleyecektir. Dijital kimlik belgeleri düzenlenirken veya kullanýrken kimliðimizin doðrulanmasý, yüz özelliklerinin, parmak izinin, ses, SMS ve diðer çok faktörlü kimlik doðrulama yöntemlerinin kullanýlmasýdýr.
+Ayný zamanda, X.509 Sertifika Ýptal Listesini yönetmek ve kayýt etmek üzere çevrimiçi sertifika durum protokolünü deðiþtirmek için blokzincirini kullanacaðýz. 
 
-The smart contract was first proposed by the cryptographer Nick Szabo in 1994, only five years after the creation of the World Wide Web. According to Szabo's definition: When a pre-programmed condition is triggered, the smart contract will execute the corresponding contract terms. Blockchain technology provides us with a decentralized, tamper-resistant, highly reliable system in which smart contracts are very useful. NEO has an independent smart contract system: NeoContract.
+### Akýllý Sözleþmeler
 
-The NeoContract smart contract system is the biggest feature of the seamless integration of the existing developer ecosystem. Developers do not need to learn a new programming language but use C#, Java and other mainstream programming languages in their familiar IDE environments (Visual Studio, Eclipse, etc.) for smart contract development, debugging and compilation. NEO's Universal Lightweight Virtual Machine, NeoVM, has the advantages of high certainty, high concurrency, and high scalability. The NeoContract smart contract system will allow millions of developers around the world to quickly carry out the development of smart contracts. NeoContract will have a separate white paper describing the implementation details.
+Akýllý sözleþmeler ilk olarak 1994 de, World Wide Web'in icadýndan sadece beþ yýl sonra, kriptocu Nick Szabo tarafýndan ileriye sürülmiþtir. Szabo'nun ifadesine göre: Önceden programlanmýþ olan bir durum tetiklendiðinde akýllý sözleþme ilgili sözleþme þartlarýný yerine getirecektir. Blokzinciri teknolojisi bize merkezsizleþtirilmiþ, bozulmaya dayalýklý, akýllý sözleþmelerin çok yararlý olduðu son derece güvenilir bir sistem sunmaktadýr. NEO baðýmsýz bir akýllý sözleþme sistemi sunmaktadýr: NeoContract.
 
-### Application and Ecosystem
+NeoContract akýllý sözleþme sistemi mevcut geliþtirici ekosisteminin sorunsuz entegrasyonunun en büyük özelliðidir. Geliþtiriciler akýllý sözleþme geliþtirmek için yeni bir programlama dili öðrenmek zorunda kalmazlar, aksine halihazýrda kullandýklarý IDE ortamlarýnda C #, Java ve diðer ana programlama dillerini kullanabiliriler. NEO'nun Hafif Evrensel Sanal Makinesi NeoVM, yüksek kesinlik, yüksek eþzamanlýlýk ve yüksek ölçeklenebilirlik avantajlarýna sahiptir. NeoContract akýllý sözleþme sistemi, milyonlarca geliþtiricinin akýllý sözleþmeleri hýzla geliþmesini saðlayacaktýr. NeoContract, uygulama ayrýntýlarýný açýklayan ayrý bir raporu olacaktýr.
 
-Ecosystem is the vitality of the open source community. In order to achieve the goal of an intelligent economic network, NEO will be committed to the development of its ecosystem, providing mature development tools, improving development of documents, organizing education and training activities, and providing financial support. We plan to support the following NEO-based applications and ecology and to reward improvements to the design of the experience:
+### Uygulama ve Ekosistem
 
-ðŸ”¹ **Node Program**
+Ekosistem, açýk kaynak topluluðunun dayanma gücüdür. Akýllý bir ekonomik aðýn amacýna ulaþmak için, NEO, olgunlaþmýþ geliþtirme araçlarýný saðlayarak, dökümanlarý geliþtirirerek, eðitim ve çalýþma aktiviteleri organize ederek ve finansal destek saðlayarak ekosisteminin geliþtirilmesine kararlý olacaktýr. Aþaðýdaki NEO tabanlý uygulamalarý desteklemeyi planlýyoruz ve tecrübelerin geliþtirilmesini de ödüllendirmeyi planlýyoruz:
 
-- A fully functioning Full node PC program
+ðŸ”¹ **Düðüm Programý**
 
-- A light node PC program with a better user experience
+- Tam iþlevli bir Tam Düðüm PC programý
 
-- Web / Android / iOS clients that do not need to synchronize with the blockchain
+- Daha iyi bir kullanýcý deneyimi saðlayan hafif bir düðüm PC programý
 
-- Hardware wallet
+- Blok zinciriyle senkronize olmaya ihtiyaç duymayan Web / Android / iOS istemcileri
 
-ðŸ”¹ **Blockchain Explorer**
+- Donaným cüzdan
 
-ðŸ”¹ **SDK Development Kit**
+ðŸ”¹ **Blokzinciri Tarayýcýsý**
 
-- Support Java / Kotlin, .NET C # / VB, JavaScript / Typescript, Python, Go
+ðŸ”¹ **SDK Geliþtirme Aracý**
 
-ðŸ”¹ **Smart Contract Compiler and IDE Plugin**
+- Java / Kotlin, .NET C # / VB, JavaScript / Typescript, Python, Go destekleme
+
+ðŸ”¹ **Akýllý Sözleþme Derleyici ve IDE Eklentisi**
 
 - C# / VB.Net / F#, Visual Studio
 
@@ -54,63 +56,63 @@ Ecosystem is the vitality of the open source community. In order to achieve the 
 
 - Python / Ruby
 
-ðŸ”¹ **Decentralized Applications**
+ðŸ”¹ **Merkezi Olmayan Uygulamalar**
 
-- Smart fund
+- Akýllý fon
 
-- AI-assisted legal smart contract
+- AI destekli yasal akýllý sözleþme
 
-- Social networking
+- Sosyal að
 
-- Automated tokens liquidity providers
+- Otomatik token likidite saðlayýcýlarý
 
-- Decentralized exchange
+- Merkezi olmayan borsa
 
-- Secure communication protocol
+- Güvenli iletiþim protokolü
 
-- Data exchange market
+- Veri alýþveriþi pazarý
 
-- Intellectual property trading market
+- Fikri mülkiyet ticaret pazarý
 
-- Prediction market
+- Tahmin piyasasý
 
-- Advertising market
+- Reklamcýlýk pazarý
 
-- Hashpower market
+- Hashpower pazarý
 
-- NeoGas market
+- NeoGas pazarý
 
-## NEO Management Model
+## NEO Yönetim Modeli
 
-### Economic Model
+### Ekonomik model
 
-NEO has two native tokens, NEO (abbreviated symbol NEO) and NeoGas (abbreviated symbol GAS).
+NEO'nun iki yerli simgesi vardýr: NEO (kýsaltýlmýþ sembol NEO) ve NeoGas (kýsaltýlmýþ sembol GAS)
 
-NEO, with a total of 100 million tokens, represents the right to manage the network. Management rights include voting for bookkeeping, NEO network parameter changes, and so on. The minimum unit of NEO is 1 and tokens cannot be subdivided.
+NEO, toplam 100 milyon simgeyle þebekeyi yönetme hakkýný temsil eder. Yönetim haklarý, defter tutma, NEO að parametresi deðiþiklikleri vb. Için oylamayý içerir. NEO'nun minimum birimi 1'dir ve tokenlar alt bölümlere ayrýlmaz.
 
-GAS is the fuel token for the realization of NEO network resource control, with a maximum total limit of 100 million. The NEO network charges for the operation and storage of tokens and smart contracts, thereby creating economic incentives for bookkeepers and preventing the abuse of resources. The minimum unit of GAS is 0.00000001.
+GAS, NEO að kaynak kontrolünün gerçekleþtirilmesi için yakýt simgesidir, toplamda maksimum 100 milyon limitle. NEO aðý, tokenlarýn ve akýllý sözleþmelerin çalýþtýrýlmasý ve depolanmasý için ücret talep eder, böylece defter tutanlara ekonomik teþvikler getirir ve kaynaklarýn istismar edilmesinin önler. Minimum Gas birimi 0.00000001 dir. 
 
-In the genesis block of the NEO network, 100 million NEOs are generated, GAS has not yet been generated. 100 million GAS, corresponding to the 100 million NEO, will be generated through a decay algorithm in about 22 years time to address holding NEO. If NEO is transferred to a new address, the subsequent GAS generated will be credited to the new address.
+NEO aðýnýn genesis bloðunda, 100 milyon NEO üretilmiþ, GAS henüz üretilmemiþtir. 100 milyon NEO'ya karþýlýk gelen 100 milyon GAS, yaklaþýk 22 yýl içinde bir çürüme algoritmasý yoluyla NEO sahibi adreslere üretilecektir. NEO yeni bir adrese gönderilirse, daha sonra üretilen GAS yeni adrese yatýrýlýr.
 
-The NEO network will set a threshold by voting to exempt GAS from a certain amount of transfer transactions and smart contract operations to enhance the user experience. When a large amount of spam transactions occur, NeoID can be used to prioritize transactions and smart contracts with qualified identities. Transactions and smart contracts with no qualifying digital identities can get priority by paying GAS.
+NEO aðý, kullanýcý deneyimini geliþtirmek için belli miktarda aktarma iþlemlerinden ve akýllý sözleþme operasyonlarýndan GAS'ý muaf tutarak bir eþik belirleyecektir. Çok miktarda spam iþlemi gerçekleþtiðinde, NeoID, nitelikli kimliklerle iþlemlere ve akýllý sözleþmelere öncelik vermek için kullanýlabilir. Nitelikli dijital kimliksiz iþlemler ve akýllý sözleþmeler, GAS ödeyerek öncelik kazanabilir.
 
-### Distribution Mechanism
+### Daðýtým Mekanizmasý
 
-NEO distribution:
+NEO daðýtýmý:
 
-NEO's 100 million tokens is divided into two portions. The first portion is 50 million tokens distributed proportionally to supporters of NEO during the crowdfunding. This portion has been distributed.
+NEO'nun 100 milyon tokený iki porsiyona ayrýlmýþtýr. Ýlk bölüm, crowdfunding sýrasýnda NEO destekçilerine orantýlý olarak daðýtýlan 50 milyon tokendýr. Bu bölüm daðýtýlmýþtýr.
 
-The second portion is 50 million NEO managed by the NEO Council to support NEO's long-term development, operation and maintenance and ecosystem. The NEO in this portion has a lockout period of 1 year and is unlocked only after October 16, 2017. This portion will not enter the exchanges and is only for long-term support of NEO projects. The plans for it are as below:
+Ýkinci bölüm, NEO'nun uzun vadeli kalkýnmasýný, iþletme, bakým ve ekosistemi desteklemek için NEO Konseyi tarafýndan yönetilen 50 milyon NEO'dur. Bu bölümdeki NEO, 1 yýl boyunca kitlenmiþtir ve yalnýzca 16 Ekim 2017'den sonra açýlýr. Bu bölüm borsalara girmeyecek ve yalnýzca NEO projelerinin uzun vadeli desteði içindir. Bunun planlarý aþaðýdaki gibidir:
 
-ðŸ”¹ 10 million tokens (10% total) will be used to motivate NEO developers and members of the NEO Council
+ðŸ”¹ NEO geliþtiricilerini ve NEO Konseyi üyelerini motive etmek için 10 milyon token (toplam% 10) kullanýlacaktýr
 
-ðŸ”¹ 10 million tokens (10% total) will be used to motivate developers in the NEO ecosystem
+ðŸ”¹ NEO ekosistemindeki geliþtiricileri motive etmek için 10 milyon token (toplam% 10) kullanýlacaktýr.
 
-ðŸ”¹ 15 million tokens (15% total) will be used to cross-invest in other block-chain projects, which are owned by the NEO Council and are used only for NEO projects
+ðŸ”¹ NEO Konseye ait olan ve yalnýzca NEO projeleri için kullanýlan diðer blok zincir projelerine çapraz yatýrým yapmak için 15 milyon token (toplam% 15) kullanýlacaktýr
 
-ðŸ”¹ 15 million (15% total) will be retained as contingency
+ðŸ”¹ 15 milyon (toplam% 15) ihtimal olarak muhafaza edilecek
 
-ðŸ”¹ The annual use of NEO in principle shall not exceed 15 million tokens
+ðŸ”¹ NEO'nun yýllýk kullanýmý, ilke olarak, 15 milyon jetonu aþmayacaktýr
 
 GAS distribution:
 
